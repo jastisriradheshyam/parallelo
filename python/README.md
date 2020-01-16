@@ -2,7 +2,7 @@
 
 ## GIL (Global Interpreter Lock)
 
-- GIL is a mutex that protects access to python objects, preventing mutiple threads from executing Python bytecode at once.
+- GIL is a mutex that protects access to python objects, preventing multiple threads from executing Python bytecode at once.
 
 - This lock is necessary because CPython's memory management is not thread-safe.
 
@@ -14,7 +14,7 @@
     - process object
     - creating a process: `process = Process(target=function_name, args=(first_arg,))`
     - starting the process: `process.start()`
-    - block the calling thread untill the process done executing or  until the optional timeout occurs: `process.join([timeout])`
+    - block the calling thread until the process done executing or until the optional timeout occurs: `process.join([timeout])`
 - `current_process()`
     - has attribute `name`, which is the name of the process.
 - `Value`

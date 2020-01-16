@@ -1,10 +1,19 @@
-# Multithreading
+# Process
+- A process is a program in execution.
+- Every process has their own address space.
+- A process comprises of one or more threads of execution.
+
+# Thread
+- Threads are part of a process that share various resources, like address space.
+- Threads can communicate directly through shared memory.
+
+# Multi-threading
 
 - All threads in a process share access to the process resources.
 
 # Multiprocessing
 
-- Running mutiple processes on mutiple processors at same time by a program.
+- Running multiple processes on multiple processors at same time by a program.
 
 # Concurrency
 
@@ -12,14 +21,14 @@
 
 # Parallel computing
 
-- Run mutiple processes at an instance of time.
-- Cannot be run on only one processer.
-- To run a program parallelly
+- Run multiple processes at an instance of time.
+- Cannot be run on only one processor.
+- To run a program parallel
     - program should have small independent pieces of code
     - should be running on more than one physical processors
 
 # Note
 
 - Threads and processes can run in parallel.
-- Multiprocessing is not equvalent to parallel processing
-    - Multi processing program can run a program parallelly. But it is dependent on the OS how it schedules the processes.
+- Multiprocessing is not equivalent to parallel processing
+    - Multi processing program can run a program parallel. But it is dependent on the OS how it schedules the processes.

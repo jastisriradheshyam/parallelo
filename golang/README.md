@@ -2,12 +2,12 @@
 
 ## Go Routines
 
-- goroutine is an independenty executing function, launched by a go statement.
+- goroutine is an independently executing function, launched by a go statement.
 - It has it's own call stack
     - It can grow and shrinks as required
     - Prior to version 1.2 the stack size started at 4K and now as of version 1.4 it starts at 8K.
 - It's not an OS thread. It is much lighter than OS thread and can be called a green thread ( resembles the concept )
-- goroutines are mutiplexed dynamically onto threads as needed to keep all the goroutines running.
+- goroutines are multiplexed dynamically onto threads as needed to keep all the goroutines running.
 
 ## Channels
 
